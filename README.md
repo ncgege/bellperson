@@ -35,7 +35,11 @@ From ZQBC
 - get the code:
 
 ```bash
-cd ../lotus_code_path && git clone https://github.com/jackoelv/bellperson.git && git checkout origin/2080Ti
+cd ../lotus_code_path && git clone https://github.com/jackoelv/bellperson.git
+# for 3090 card:
+git checkout remotes/origin/3090
+#for 2080Ti:
+git checkout remotes/origin/3090
 ```
 - patch the filecoin-ffi submodule
 
